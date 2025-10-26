@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Products - Ubec Supply</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<!-- 🔝 Fixed Header Wrapper -->
+<div class="fixed-header">
+  <!-- Top Bar -->
+  <div class="top-bar text-end py-1 px-4 bg-light small border-bottom">
+    <a href="#" class="text-dark text-decoration-none me-3">Find a Store</a> |
+    <a href="about.html" class="text-dark text-decoration-none mx-3">About</a> |
+    <a href="contact.html" class="text-dark text-decoration-none mx-3">Contact Us</a> |
+    <a href="#" class="text-dark text-decoration-none ms-3">Sign In</a>
+  </div>
+
+  <!-- Main Navbar -->
+  <nav class="navbar navbar-expand-lg bg-white shadow-sm py-3">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="index.html">UBEC SUPPLY</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navmenu"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link fw-semibold mx-3 dropdown-toggle" href="products.html#jackets" id="men" role="button">
+              Men
+            </a>
+            <ul class="dropdown-menu shadow mt-0 border-0 rounded-0">
+              <li><a class="dropdown-item" href="products.html#jackets">Jackets</a></li>
+              <li><a class="dropdown-item" href="products.html#shirts">Shirts</a></li>
+              <li><a class="dropdown-item" href="products.html#jeans">Jeans</a></li>
+              <li><a class="dropdown-item" href="products.html#caps">Caps</a></li>
+            </ul>
+          </li>
+
+          <li class="nav-item dropdown position-static">
+            <a class="nav-link fw-semibold mx-3 dropdown-toggle" href="products.html#Jackets" id="women" role="button">
+              Women
+            </a>
+            <ul class="dropdown-menu shadow mt-0 border-0 rounded-0">
+              <li><a class="dropdown-item" href="products.html#Jackets">Jackets</a></li>
+              <li><a class="dropdown-item" href="products.html#Shirts">Shirts</a></li>
+              <li><a class="dropdown-item" href="products.html#Jeans">Jeans</a></li>
+            </ul>
+          </li>
+        </ul>
+
+        <div class="d-flex align-items-center">
+          <div class="search-box d-flex align-items-center me-3">
+            <input
+              type="text"
+              id="searchInput"
+              class="form-control rounded-start-pill"
+              placeholder="Search products..."
+              style="max-width: 200px;"
+            />
+            <button id="searchBtn" class="btn rounded-end-pill">
+              <i class="bi bi-search"></i>
+            </button>
+          </div>
+          <a href="cart.html" class="text-dark fs-5">
+            <i class="bi bi-bag"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </nav>
+</div>
+
+
+<!-- products.html -->
+<div class="container products-section">
+
+<h2 id="jackets">Jackets</h2>
+<div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/e086892455c54c95d83e1104e633632b.jpg" alt="Carhartt Jacket">
+          <div class="product-info">
+            <h5>Carhartt Detriot</h5>
+            <p class="price">₱8,499</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/adidas.jpg" alt="Adidas Zip up Hoodie Jacket">
+          <div class="product-info">
+            <h5>Adidas Reversible Zip Up Hoodie Jacket</h5>
+            <p class="price">₱1,599</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/tnf.jpg" alt="The North Face Puffer Jacket">
+          <div class="product-info">
+            <h5>The North Face Puffer Jacket</h5>
+            <p class="price">₱999</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/d.jpg" alt="Dickies Jacket">
+          <div class="product-info">
+            <h5>Dickies x AWful Lot of Rollin Loud Jacket</h5>
+            <p class="price">₱699</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/m.jpg" alt="Marlboro, Carhartt Jacket">
+          <div class="product-info">
+            <h5>Marlboro x Carhartt Jacket</h5>
+            <p class="price">₱11,499</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+       <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/russell.jpg" alt="Russel Jacket">
+          <div class="product-info">
+            <h5>Faded Maroon Russell Button Up Jacket</h5>
+            <p class="price">₱1,299</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+      
+      </div>
+      </div>
+
+      <div class="container products-section">
+  <h2 id="shirts">Shirts</h2>
+<div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/stosi.jpg" alt="Stussy Shirt">
+          <div class="product-info">
+            <h5>Stussy Shirt</h5>
+            <p class="price">₱799</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/bud.jpg" alt="Budweiser Shirt">
+          <div class="product-info">
+            <h5>Budweiser Shirt</h5>
+            <p class="price">₱599</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/okli.jpg" alt="Vintage Oakley Shirt">
+          <div class="product-info">
+            <h5>Vintage Oakley Shirt</h5>
+            <p class="price">₱899</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container products-section">
+  <h2 id="jeans">Jeans</h2>
+  <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/jnco.jpg" alt="JNCO Jeans">
+          <div class="product-info">
+            <h5>Vintage JNCO Jeans</h5>
+            <p class="price">₱2,999</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/dick.jpg" alt="Dickies Jeans">
+          <div class="product-info">
+            <h5>Dickies Baggy Jeans</h5>
+            <p class="price">₱999</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/spole.jpg" alt="Southpole Bboy Jeans">
+          <div class="product-info">
+            <h5>Southpole Baggy Bboy Jeans</h5>
+            <p class="price">₱1,350</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+</div>
+
+<div class="container products-section">
+  <h2 id="caps">Caps</h2>
+  <div class="row">
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/obi.jpg" alt="Obey Cap">
+          <div class="product-info">
+            <h5>Obey Cap</h5>
+            <p class="price">₱349</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/marl.jpg" alt="Vintage Marlboro Cap">
+          <div class="product-info">
+            <h5>Vintage Red Marlboro Cap</h5>
+            <p class="price">₱399</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/p.jpg" alt="Vintage Pittsburgh Pirates Cap">
+          <div class="product-info">
+            <h5>Vintage Pittsburgh Pirates Pillbox Hat</h5>
+            <p class="price">₱5,499</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+  </div>
+</div>
+
+      <div class="container products-section">
+  <h2 id="Jackets">Women's Jackets</h2>
+   <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/w.jpg" alt="thisisneverthat Jacket">
+          <div class="product-info">
+            <h5>Thisisneverthat Fleece Jacket</h5>
+            <p class="price">₱449</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/lv.jpg" alt="Adidas Zip up Hoodie Jacket">
+          <div class="product-info">
+            <h5>Louis Vuitton Embroidered Denim Workwear Jacket</h5>
+            <p class="price">₱1,599</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/acme.jpg" alt="Acme de la vie Jacket">
+          <div class="product-info">
+            <h5>Acme de la vie Women's Jacket</h5>
+            <p class="price">₱899</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+<div class="container products-section">
+  <h2 id="Shirts">Women's Shirt</h2>
+   <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/wom.jpg" alt="thisisneverthat Jacket">
+          <div class="product-info">
+            <h5>Acme de la vie Women's Shirt</h5>
+            <p class="price">₱1,999</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/gucci.jpg" alt="Guccie T-Shirt">
+          <div class="product-info">
+            <h5>Guccie Women's T-Shirt</h5>
+            <p class="price">₱1,499</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/celine.jpg" alt="Celine Shirt">
+          <div class="product-info">
+            <h5>Celine Women's Shirt</h5>
+            <p class="price">₱899</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="container products-section">
+  <h2 id="Jeans">Women's Jeans</h2>
+   <div class="row g-4">
+      <!-- Product 1 -->
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/evisu jeans.jpg" alt="Evisu Jeans">
+          <div class="product-info">
+            <h5>Vintage Evisu Custom Daicock Jeans</h5>
+            <p class="price">₱3,999</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/tr.jpg" alt="True Religion Jeans">
+          <div class="product-info">
+            <h5>True Religion Women's Jeans</h5>
+            <p class="price">₱949</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-4 col-md-6 col-sm-12">
+        <div class="product-card">
+          <img src="images/z.jpg" alt="Zara Jeans">
+          <div class="product-info">
+            <h5>Zara Mid-Rise Jeans for Women</h5>
+            <p class="price">₱1,299</p>
+            <a href="cart.html" class="btn btn-dark btn-md">Add to Cart</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+  </div> 
+    </div>
+      </div>
+    </div>
+  </div>  
+
+  <footer class="bg-dark text-white text-center py-3 mt-5">
+    <p class="mb-0">© 2025 MyShop | Follow us on 
+      <a href="#" class="text-warning text-decoration-none">Facebook</a>,
+      <a href="#" class="text-warning text-decoration-none">Instagram</a>
+    </p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+  <script>
+    displayProducts();
+  </script>
+</body>
+</html>
