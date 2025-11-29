@@ -193,7 +193,7 @@ width: 500%;
     }
 
     .product-info{
-      margin-bottom: 100px;
+      margin-bottom: 50px;
     }
 
       /* 🔦 Highlighted product effect */
@@ -223,5 +223,69 @@ width: 500%;
 html {
   scroll-behavior: smooth;
 }
+
+/* === General Section Spacing === */
+.container.py-5.text-center {
+  padding-top: 100px !important; /* space from navbar */
+  padding-bottom: 100px !important;
+}
+
+.row.mt-5 {
+  background: #f8f9fa;
+  border-radius: 12px;
+  padding: 50px 30px;
+  margin-top: 80px !important; /* adds more space before Mission & Vision */
+  margin-bottom: 80px; /* adds space after Mission & Vision */
+}
+
+/* === Team Section === */
+h3.fw-bold.mt-5.mb-4 {
+  margin-top: 100px !important;
+  margin-bottom: 40px !important;
+}
+
+.d-flex.justify-content-center.align-items-start.gap-5.flex-wrap.mt-4 {
+  margin-bottom: 80px !important; /* space before footer */
+}
+
+.team-member {
+  width: 250px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.shadow-lg {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.shadow-lg:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* === Responsive === */
+@media (max-width: 768px) {
+  .team-member {
+    width: 100%;
+  }
+
+  .row.mt-5 {
+    padding: 30px 15px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .container.py-5.text-center {
+    padding-top: 70px !important;
+    padding-bottom: 70px !important;
+  }
+}
+
 
 
